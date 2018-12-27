@@ -1,0 +1,251 @@
+@charse="utf-8";
+
+/*main.css*/
+div.contents{
+    width: 960px;
+   .background: green; 
+    margin-top: 20px;
+    font-family: "malgun gothic", "dotum", sans-serif;
+}
+div.contents .notice{
+     width: 700px;
+    margin: 0 auto;
+    height: 250px;
+}
+div.contents .notice h3, .icon h3{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+div.contents .notice h3 span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 12px;
+    color: #333;
+    float: left;
+    background:#009688; 
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 10px;
+     margin-top: 5px;
+    
+}
+div.contents .notice ul{
+    width: 700px;
+    margin: 0 auto;
+}
+div.contents .notice li.notice-subject{
+    width: 700px;
+    height: 30px;
+    line-height: 30px;
+}
+div.contents .notice li.notice-subject span:nth-child(1){
+    width: 550px;
+}
+div.contents .notice li.notice-subject span:nth-child(2){
+    width: 150px;
+}
+div.contents .notice li.notice-subject span{
+    display: block;
+    color: #666;
+    border-bottom: 1px solid #6a6a6a;
+    border-top: 2px solid #6a6a6a;
+    float: left;
+    height: 30px;
+    text-align: center;
+}
+div.contents .notice li:not(:nth-child(1)){
+    height: 30px;
+    clear: both;
+    line-height: 30px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+div.contents .notice li a{
+    display: block;
+    width: 700px;
+    float: left;
+    color: #6a6a6a;
+}
+div.contents .notice li a:hover{
+    color: #009688;
+    text-decoration: underline;
+}
+div.contents .notice li span{
+    display: block;
+    float: right;
+    width: 150px;
+}
+
+
+
+/* partner begin*/
+
+
+div.contents .partner {
+    width: 700px;
+    margin: 0 auto;
+    height: 250px;
+    .background: lightblue;
+    margin-bottom: 10px;
+}
+
+.partner h3 span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 12px;
+    color: #fff;
+    float: left;
+    background:#009688; 
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 10px; 
+    margin-top: 5px;
+
+}
+
+div.contents .partner > ul{
+    width: 660px;
+    margin: 0 auto;
+    height: 250px;
+    margin-left: 40px;
+   
+}
+div.contents .partner > ul >li:nth-child(1){
+    float: left;
+    width: 250px;
+    height:100px;
+    margin-top: 35px;
+}
+div.contents .partner > ul >li:nth-child(2){
+    float: right;
+    width: 250px;
+    height:100px;
+    margin-top: 40px;
+}
+
+div.contents .partner > ul >li img{
+    display: block;
+}
+
+div.contents .partner > ul > li:nth-child(1) img{
+    width: 200px;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-right: 20px;
+       
+}
+
+div.contents .partner > ul >li:nth-child(2) img{
+    margin: 0 auto;
+    width: 250px;  
+}
+div.contents .partner .partner-text{
+    width: 700px;
+    margin: 0 auto;
+    height: 34px;
+    line-height: 34px;
+}
+
+div.contents .partner .partner-text li{
+    display: inline;
+   .float: left;
+    width: 420px;
+    margin: 0 5px;
+    text-align: center;
+   .background: green;
+    clear: both;
+ 
+}
+
+div.contents .partner .partner-text li:first-child{
+    margin-right:100px;
+}
+div.contents .partner .partner-text li:nth-child(2){
+    margin-right: 100px
+}
+
+/* Icon begin*/
+
+div.contents .icon{
+    width: 700px;
+    margin: 0 auto;
+    height: 250px;
+    .background: lightblue;
+    margin-bottom: 10px;
+}
+
+div.contents .icon li{
+    float: left;
+    width: 220px;
+    margin: 0 5PX;
+    text-align: center;
+     .margin: 0 auto; 
+}
+
+div.contents .icon li span{
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+div.contents .icon li img{
+    display: block;
+    margin-bottom: 10px;
+    width: 75px;
+    height: 75px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    .background: blue;
+}
+
+div.contents .icon a{
+   display: block;
+   color: #333;
+    box-sizing: border-box;
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: 600px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+   .margin: 0 auto;
+    margin-right: 10px;
+}
+
+div.contents .icon a:hover{
+    color:#333;
+    background: #009866;
+    box-shadow: 1px 1px 2px #6a6a6a;
+    transition: all 0.3s;
+}
+
+div.contents .icon  h3 span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 12px;
+    color: #fff;
+    float: left;
+    background:#009688; 
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin: 0 auto;
+}
+div.contents .icon ul{
+    width: 700px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+div.contents .icon li span{
+    float: left;
+}
+
+
+
+
+
