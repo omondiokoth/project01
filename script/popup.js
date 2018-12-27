@@ -1,26 +1,34 @@
 $(function(){
-//script/popup.js
+    //script/popup.js
+    
     let $pop = $('#popup'),
-        $pop1 = $('#popup .pic1'),
-        $pop2 = $('#popup .pic2'),
-        $p01 = $('.partner .pop01 a'),
-        $p02 = $('.partner .pop02 a');
-    
-    
-    $p01.on('click', function(event){
-        event.preventDefault();
-        $pop2.css("display", "none");
-        $pop.css("display", "block");
+        $pop1 = $('#popup .popup-content'),
+        $p1 = $pop1.find('.pop-img1'),
+        $p2 = $pop1.find('.pop-img2'),
+        $c1 = $('.sec2 .img_p a'),
+        $c2 = $('.sec2 .img_p1 a');
         
-    });
-    $p02.on('click', function(event){
+ 
+    
+    $c1.on('click', function(event){
         event.preventDefault();
-        $pop1.css("display", "none");
-        $pop.css("display", "block");
+        $pop.css('display','block');
+        $p1.css('display','block');
+        $p2.css('display','none');
     });
+    $c2.on('click', function(event){
+        event.preventDefault();
+        $pop.css('display','block');
+        $p2.css('display','block');
+        $p1.css('display','none');
+    });
+    
+    
+    
+
     $pop.find('.close').on('click',function(){
-        $pop.find('img').css("display", "block");
+        $pop.find('img').css("display", "none");
         $pop.css("display", "none");
     });
- 
+
 });

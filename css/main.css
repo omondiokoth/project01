@@ -1,251 +1,253 @@
-@charse="utf-8";
+@charset "utf-8";
+main{
+    width: 1280px;
+    height: 1000px;
+    margin: 0 auto;
+/*    background: #ccc;*/
+}
 
-/*main.css*/
-div.contents{
-    width: 960px;
-   .background: green; 
+main .sec1{
+    width: 1250px;
+    margin: 0 auto;
+/*    background: green;*/
+    padding-top: 20px;
+    height: 200px;
+    margin-bottom: 20px;
     margin-top: 20px;
-    font-family: "malgun gothic", "dotum", sans-serif;
 }
-div.contents .notice{
-     width: 700px;
-    margin: 0 auto;
-    height: 250px;
-}
-div.contents .notice h3, .icon h3{
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 10px;
-}
-div.contents .notice h3 span{
-    display: block;
-    width: 16px;
-    height: 16px;
-    line-height: 12px;
-    color: #333;
+
+
+/*sec1 div1 begin*/
+main .sec1 .div1{
     float: left;
-    background:#009688; 
-    border-radius: 8px;
-    text-align: center;
+    width: 615px;
+/*    background: blue;*/
+    height: 200px;
+}
+
+main .sec1 .div1 h3{
+    font-size: 24px;
+    margin-left: 20px;
+    width: 400px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+main .sec1 .div1 h3 > span{
+    width: 24px;
+    height: 24px;
+    background: #009688;
+    border-radius: 12px;
+    display: block;
+    float: left;
+    margin-top: 5px;
     margin-right: 10px;
-     margin-top: 5px;
-    
 }
-div.contents .notice ul{
-    width: 700px;
-    margin: 0 auto;
-}
-div.contents .notice li.notice-subject{
-    width: 700px;
-    height: 30px;
-    line-height: 30px;
-}
-div.contents .notice li.notice-subject span:nth-child(1){
-    width: 550px;
-}
-div.contents .notice li.notice-subject span:nth-child(2){
-    width: 150px;
-}
-div.contents .notice li.notice-subject span{
+main .sec1 .div1 h3 > span span{
+     width: 12px;
+    height: 12px;
+    background: #a0d9ea;
+    border-radius: 6px;
     display: block;
-    color: #666;
-    border-bottom: 1px solid #6a6a6a;
-    border-top: 2px solid #6a6a6a;
     float: left;
-    height: 30px;
-    text-align: center;
+    margin-top: 6px;
+    margin-left: 6px;
 }
-div.contents .notice li:not(:nth-child(1)){
-    height: 30px;
-    clear: both;
-    line-height: 30px;
-    padding-left: 15px;
-    box-sizing: border-box;
+
+main .sec1 .div1 ul{
+    margin-left: 30px;
 }
-div.contents .notice li a{
+
+main .sec1 .div1 li{
+    padding-top: 5px;
+    line-height: 160%;
+}
+
+main .sec1 .div1 li span{
+    float: right;
+}
+
+main .sec1 .div1 li a{
+    color: #333;
     display: block;
-    width: 700px;
-    float: left;
-    color: #6a6a6a;
 }
-div.contents .notice li a:hover{
-    color: #009688;
+
+main .sec1 .div1 li a:hover{
+    color: #a0d9ea;
     text-decoration: underline;
 }
-div.contents .notice li span{
-    display: block;
-    float: right;
-    width: 150px;
+
+
+/*sec2 div2 begin*/
+
+
+
+main .sec1 .div2{
+     width: 615px;
+   float:right;
+     height: 200px;
+/*    background: blue;*/
 }
 
-
-
-/* partner begin*/
-
-
-div.contents .partner {
-    width: 700px;
-    margin: 0 auto;
-    height: 250px;
-    .background: lightblue;
-    margin-bottom: 10px;
+main .sec1 .div2 h3{
+    font-size: 24px;
+    margin-left: 20px;
+    width: 400px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
 }
 
-.partner h3 span{
+main .sec1 .div2 h3 > span{
+    width: 24px;
+    height: 24px;
+    background: #009688;
+    border-radius: 12px;
     display: block;
-    width: 16px;
-    height: 16px;
-    line-height: 12px;
-    color: #fff;
     float: left;
-    background:#009688; 
-    border-radius: 8px;
-    text-align: center;
-    margin-right: 10px; 
     margin-top: 5px;
-
-}
-
-div.contents .partner > ul{
-    width: 660px;
-    margin: 0 auto;
-    height: 250px;
-    margin-left: 40px;
-   
-}
-div.contents .partner > ul >li:nth-child(1){
-    float: left;
-    width: 250px;
-    height:100px;
-    margin-top: 35px;
-}
-div.contents .partner > ul >li:nth-child(2){
-    float: right;
-    width: 250px;
-    height:100px;
-    margin-top: 40px;
-}
-
-div.contents .partner > ul >li img{
-    display: block;
-}
-
-div.contents .partner > ul > li:nth-child(1) img{
-    width: 200px;
-    margin-top: 20px;
-    margin: 0 auto;
-    margin-right: 20px;
-       
-}
-
-div.contents .partner > ul >li:nth-child(2) img{
-    margin: 0 auto;
-    width: 250px;  
-}
-div.contents .partner .partner-text{
-    width: 700px;
-    margin: 0 auto;
-    height: 34px;
-    line-height: 34px;
-}
-
-div.contents .partner .partner-text li{
-    display: inline;
-   .float: left;
-    width: 420px;
-    margin: 0 5px;
-    text-align: center;
-   .background: green;
-    clear: both;
- 
-}
-
-div.contents .partner .partner-text li:first-child{
-    margin-right:100px;
-}
-div.contents .partner .partner-text li:nth-child(2){
-    margin-right: 100px
-}
-
-/* Icon begin*/
-
-div.contents .icon{
-    width: 700px;
-    margin: 0 auto;
-    height: 250px;
-    .background: lightblue;
-    margin-bottom: 10px;
-}
-
-div.contents .icon li{
-    float: left;
-    width: 220px;
-    margin: 0 5PX;
-    text-align: center;
-     .margin: 0 auto; 
-}
-
-div.contents .icon li span{
-    margin-left:40px;
-    margin-top: 20px;
-}
-
-div.contents .icon li img{
-    display: block;
-    margin-bottom: 10px;
-    width: 75px;
-    height: 75px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    margin: 0 auto;
-    .background: blue;
-}
-
-div.contents .icon a{
-   display: block;
-   color: #333;
-    box-sizing: border-box;
-    padding-top: 2px;
-    font-size: 14px;
-    font-weight: 600px;
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-   .margin: 0 auto;
     margin-right: 10px;
 }
-
-div.contents .icon a:hover{
-    color:#333;
-    background: #009866;
-    box-shadow: 1px 1px 2px #6a6a6a;
-    transition: all 0.3s;
-}
-
-div.contents .icon  h3 span{
+main .sec1 .div2 h3 > span span{
+     width: 12px;
+    height: 12px;
+    background: #a0d9ea;
+    border-radius: 6px;
     display: block;
-    width: 16px;
-    height: 16px;
-    line-height: 12px;
-    color: #fff;
     float: left;
-    background:#009688; 
-    border-radius: 8px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+main .sec1 .div2 ul{
+    margin-left: 30px;
+}
+
+main .sec1 .div2 li{
+    padding-top: 5px;
+    line-height: 160%;
+}
+
+main .sec1 .div2 li span{
+    float: right;
+}
+
+main .sec1 .div2 li a{
+    color: #333;
+    display: block;
+}
+
+main .sec1 .div2 li a:hover{
+    color: #a0d9ea;
+    text-decoration: underline;
+}
+
+/*sec2 begin*/
+
+main .sec2{
+    width: 1250px;
+    margin: 0 auto;
+/*    background: blue;*/
+    height: 400px;
+}
+
+main .sec2 .img_p{
+width: 600px;
+    float: left;
+/*    background: red;*/
+}
+
+main .sec2 .img_p a img{
+    width: 400px;
+    height: 300px;
+    margin: 0  auto;
+}
+
+main .sec2 .img_p p{
     text-align: center;
-    margin-right: 10px;
+     color: #333;
+    padding-top: 10px;
+
+}
+
+
+/*img_p1*/
+
+main .sec2 .img_p1{
+width: 600px;
+    float: right;
+/*    background: red;*/
+  
+}
+
+main .sec2 .img_p1 a img{
+     width: 400px;
+    height: 300px;
+    margin: 0  auto;
+}
+main .sec2 .img_p1 a h4 {
+    text-align: center;
+    font-size: 18px;
+   padding: 10px 0 10px 0;
+    color: #009688;
+}
+main .sec2 .img_p1 p{
+    text-align: center;
+     color: #333;
+}
+
+
+/*icon part begin*/
+main .icon1{
+    width: 1250px;
+    margin: 0 auto;
+    background: #fff;
     margin-top: 5px;
-    margin: 0 auto;
+    height: 350px;
 }
-div.contents .icon ul{
-    width: 700px;
+
+main .icon1 .main_icon{
+    width: 1160px;
+    height: 300px;
     margin: 0 auto;
-    margin-left: 40px;
+/*    background: pink;*/
+    margin-top: 30px;
 }
-div.contents .icon li span{
+main .icon1 .icon{
+    width: 250px;
+    height: 280px;
+/*    background: yellow;*/
     float: left;
+    margin: 20px;
 }
 
 
+main .icon1 .icon img{
+    width: 230px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
 
+main .icon1 .icon a h3{
+    font-size:18px;
+    color: #333;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
 
+main .icon1 .icon a p{
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #333;
+}
+
+main .icon1 .icon:hover{
+/*
+   width: 230px;
+    height: 200px;
+*/
+    background: rgba(0,0,0,0.5);
+}
 
